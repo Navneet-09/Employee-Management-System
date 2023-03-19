@@ -13,7 +13,7 @@ public class Conn
          
         try
         {
-            connection = DriverManager.getConnection("jdbc:mysql:///employeemanagementsystem","root","navneetkumar");          
+            connection = DriverManager.getConnection("jdbc:mysql:///employeemanagementsystem","root_name","password");          
             s = connection.createStatement();
             
             
